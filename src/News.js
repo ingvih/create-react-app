@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 class News extends Component {
   render() {
     return (
       <div>
+          <Helmet>
+              <title>News</title>
+          </Helmet>
         <h2>News</h2>
         <p>
           Lorem ipsum dolor sit amet, duo vidit ullamcorper eu, mollis utroque vis ne,
