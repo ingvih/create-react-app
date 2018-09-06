@@ -7,6 +7,7 @@ class News extends Component {
       <div>
           <Helmet>
               <title>News</title>
+              <meta property="og:title"              content="News Title" />
           </Helmet>
         <h2>News</h2>
         <p>
