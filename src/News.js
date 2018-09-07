@@ -5,10 +5,14 @@ class News extends Component {
   render() {
     return (
       <div>
-          <Helmet>
-              <title>News</title>
-              <meta property="og:title"              content="News Title" />
-          </Helmet>
+        <Helmet>
+          <title>News</title>
+          <meta property="og:url" content="https://ingvirafn.net/news" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="News" />
+          <meta property="og:description" content="This is the news site" />
+          <meta property="og:image" content="https://picsum.photos/300/200" />
+        </Helmet>
         <h2>News</h2>
         <p>
           Lorem ipsum dolor sit amet, duo vidit ullamcorper eu, mollis utroque vis ne,

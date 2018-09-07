@@ -8,13 +8,11 @@ import Contact from './Contact'
 class Main extends Component {
   render() {
     return (
-        <div>
-            <div className="content">
-            <Route exact path="/" component={Home} />
-            <Route path="/news" component={News} />
-            <Route path="/contact" component={Contact} />
-          </div>
-        </div>
+      <div className="content">
+        <Route exact path="/" component={Home} />
+        <Route path="/news" component={News} />
+        <Route path="/contact" component={Contact} />
+      </div>
     );
   }
 }
