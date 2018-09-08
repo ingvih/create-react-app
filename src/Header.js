@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
-import './App.css';
+import { Link } from 'react-router-dom';
+import { Navbar } from 'react-bootstrap';
 
 class Header extends Component {
   render() {
     return (
-      <header>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1> */}
-        <ul className="header">
-            <li><NavLink exact to="/">Home</NavLink> </li>
-            <li><NavLink to="/news">News</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-        </ul>
-      </header>
+      <Navbar fluid collapseOnSelect>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <Link exact to="/">Home</Link>
+            <Link to="/news">News</Link>
+            <Link to="/contact">Contact</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
+      </Navbar>
     );
   }
 }
