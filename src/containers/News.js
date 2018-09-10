@@ -15,7 +15,7 @@ class News extends Component {
         </Helmet>
         <h2>News</h2>
         <p>
-          Hello React. Lorem ipsum dolor sit amet, duo vidit ullamcorper eu, mollis utroque vis ne,
+          Hello React Test. Lorem ipsum dolor sit amet, duo vidit ullamcorper eu, mollis utroque vis ne,
           fugit nominavi scripserit ex vim. Assum quaerendum delicatissimi vix id, nobis iisque vim ad,
           commodo consetetur incorrupte et quo. No per magna inermis neglegentur, ius elit accusata maluisset
           an, quo posse viris an. Sed ad fabulas utroque repudiandae, eu sit pertinax delicata, postulant efficiantur
