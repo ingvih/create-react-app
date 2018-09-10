@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header'
-import Main from './Main'
+import Header from './components/Header'
+import Routes from './Routes'
 import "./App.css";
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App container">
        <Header />
-       <Main />
+       <Routes />
       </div>
     );
   }
