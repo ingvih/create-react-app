@@ -14,6 +14,7 @@ class Home extends Component {
           <meta property="og:image" content="https://picsum.photos/400/300" />
         </Helmet>
         <h2>Home</h2>
+        <p>This is the home page.</p>
       </div>
     )
   }

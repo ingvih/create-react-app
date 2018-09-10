@@ -9,8 +9,8 @@ class Header extends Component {
         <Navbar.Header>
           <Navbar.Brand>
             <Link exact to="/">Home</Link>
+            <Link to="/page">Page</Link>
             <Link to="/news">News</Link>
-            <Link to="/contact">Contact</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
