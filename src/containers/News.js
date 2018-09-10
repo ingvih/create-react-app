@@ -10,7 +10,7 @@ class News extends Component {
           <meta property="og:url" content="https://ingvirafn.net/news" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="News" />
-          <meta property="og:description" content="This is the news site" />
+          <meta property="og:description" content="This is the news site." />
           <meta property="og:image" content="https://picsum.photos/300/200" />
         </Helmet>
         <h2>News</h2>
